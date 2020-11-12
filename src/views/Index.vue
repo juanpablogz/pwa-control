@@ -5,7 +5,6 @@
     <h2 class="mt-12">saldo: {{saldo}} </h2>
     <div class="container mx-auto flex justify-center ">
         <apexchart class="widh mt-12" type="pie" width="380" :options="chartOptions" :series="series"></apexchart>
-        {{series}}
     </div>
   <h2 class="mt-12">ingresos</h2>
 <!-- ingresos -->
